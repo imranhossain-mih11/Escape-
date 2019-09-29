@@ -1,0 +1,215 @@
+body{
+	margin: 0;
+	padding: 0;
+	border:0;
+
+}
+/* fonts start */ 
+@font-face{
+	font-family:'Cubano';
+	src:url(../fonts/Cubano/Cubano.ttf);
+	 
+}
+@font-face{
+	font-family: 'brandon_reg';
+	src:url(../fonts/brandon/brandon_reg.ttf);
+	
+}
+@font-face{
+	font-family: 'brandon_bld';
+	src:url(../fonts/brandon/brandon_bld.ttf);
+	
+}
+@font-face{
+	font-family: 'brandon_light';
+	src:url(../fonts/brandon/brandon_light.ttf);
+	
+}
+@font-face{
+	font-family: 'brandon_med';
+	src:url(../fonts/brandon/brandon_med.ttf);
+	
+}
+
+
+/* fonts end */
+
+/* css start */
+
+/* header start */
+.wrapper{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 80%;
+}
+	/* head start */
+header{
+		background-image: url(../images/header-bcg.jpg);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		background-position: center;
+	}
+
+.head{
+	overflow: hidden;
+	padding: 40px 0;
+}
+.logo{
+	/* border: 1px solid; */
+	width: 15%;
+	float: left;
+}
+
+.logo img{
+	width:100%;
+}
+
+.menu{
+	width: 70%;
+	float: right;
+	/* border: 1px solid red; */
+}
+nav{
+	float: right;
+}
+/* .menu ul{
+	float: left;
+} */
+.menu ul li{
+	list-style: none;
+	float: right;
+}
+.menu .active a{
+	color: #00c7fc;
+}
+.menu ul li a{
+	font-family: 'brandon_grotesquemedium';
+	font-weight: 500;
+	font-size: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	transition: 0.5s;
+	padding: 0px 20px;
+	display: block;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #00c7fc;
+}
+
+
+	/* head end */
+
+#homebanner{
+	/*border: 1px solid yellow;*/
+	text-align: center;
+	margin-top: 160px;
+}
+#homebanner p{
+	/*border: 1px solid;*/
+	font-family: 'brandon_grotesquelight';
+	font-weight: 300;
+	font-size: 32px;
+	color: #bdbbbb;
+}
+#homebanner h2{
+	/*border: 1px solid blue;*/
+	font-family: 'brandon_grotesquebold';
+	font-weight: 700;
+	font-size: 66px;
+	margin-bottom: 40px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.banner_button{
+	/*border: 1px solid red;*/
+	position: relative;
+	text-align: center;
+}
+.banner_button button{
+	font-family: 'brandon_grotesquebold';
+	font-weight: 700;
+	font-size: 22px;
+	color: #ffffff;
+	min-width: 150px;
+	max-width: 250px;
+	background: none;
+	border: 3px solid #fff;
+	border-radius: 5px;
+	padding: 15px 65px;
+	margin: 50px;
+	cursor: pointer;
+}
+
+/* header end */
+
+/* web development start */
+.content{
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 45px;
+	padding-bottom: 45px;
+    text-align: left;
+}
+.content h1{
+	font-family: 'brandon_grotesquelight';
+	font-weight: 300;
+	font-size:60px;
+	color:#222222;
+	margin-bottom: 35px;
+}
+
+.content h1 span{
+	font-family: 'brandon_grotesquebold';
+	font-weight: 700;
+	font-size: 60px;
+	color:#222222;
+}
+.content p{
+	font-weight: 400;
+	font-size: 18px;
+	color: #777777;
+	padding-bottom:40px; 
+}
+
+.text_part{
+	float: left;
+	width: 60%;
+	padding-right: 70px;
+}
+.img_part{
+	float: left;
+	width: 15%;
+    margin-top: 55px;
+    margin-left: 60px;
+}
+
+.img_part img{
+	width: 100%;
+}
+/* web development end */
+
+/* branding start */
+.text_part2{
+	float: right;
+	width: 60%;
+	padding-right: 70px;
+}
+.img_part2{
+	float: left;
+	width: 15%;
+    margin-top: 55px;
+    margin-left: 60px;
+}
+
+.img_part2 img{
+	width: 100%;
+}
+/* branding end */
+
+/* css end */
